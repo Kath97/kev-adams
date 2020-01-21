@@ -1,0 +1,56 @@
+ <section class="theme-bg-yellow" id="actualites">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="py-5 col-sm-12 col-lg-12">
+                        <h2>Actualités</h2>
+                        <hr class="hr-bg-ylw">
+                        <div class="row">           
+                            <div class="d-none d-sm-block">
+                                <div class="col-12 col-sm-12 col-lg-4">
+                                    <a href="https://placeholder.com"><img
+                                            src="https://via.placeholder.com/350x515"></a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-lg-8">
+                                <div class="py-5 col-12 col-sm-12 col-lg-12">
+                                    <div class="row">
+                                        <div class="d-block d-sm-none">
+                                            <div class="col-12 col-sm-12 col-lg-4">
+                                                <a href="https://placeholder.com"><img
+                                                        src="https://via.placeholder.com/175x220"></a>
+                                            </div>
+                                        </div>
+                                        <div class="pt-3 col-12 col-sm-12 col-lg-3">
+                                            <a href="https://placeholder.com"><img
+                                                    src="https://via.placeholder.com/175x170"></a>
+                                        </div>
+                                        <div class=" pt-3 col-12 col-sm-12 col-lg-3"><a
+                                                href="https://placeholder.com"><img
+                                                    src="https://via.placeholder.com/175x170"></a></div>
+                                        <div class="pt-3 col-12 col-sm-12 col-lg-3"><a
+                                                href="https://placeholder.com"><img
+                                                    src="https://via.placeholder.com/175x170"></a></div>
+                                        <div class="pt-3 col-12 col-sm-12 col-lg-3"><a
+                                                href="https://placeholder.com"><img
+                                                    src="https://via.placeholder.com/175x170"></a></div>
+                                    </div>
+                                </div>
+                                <div class="py-5 col-12 col-sm-12 col-lg-12">
+                                    <div class="row">
+                                        <div class="pt-3 col-12 col-sm-12 col-lg-3"><a
+                                                href="https://placeholder.com"><img
+                                                    src="https://via.placeholder.com/175x170"></a></div>
+                                        <div class="pt-3 col-12 col-sm-12 col-lg-3"><a
+                                                href="https://placeholder.com"><img
+                                                    src="https://via.placeholder.com/175x170"></a></div>
+                                        <div class="pt-3 col-12 col-sm-12 col-lg-3"><a
+                                                href="https://placeholder.com"><img
+                                                    src="https://via.placeholder.com/175x170"></a></div>
+                                        <div class="pt-3 col-12 col-sm-12 col-lg-3"><a
+                                                href="https://placeholder.com"><img
+                                                    src="https://via.placeholder.com/175x170"></a></div>
+                                    </div>
+                                </div>
+                            </div>
+        </section>
+        <!-- end - actualités -->

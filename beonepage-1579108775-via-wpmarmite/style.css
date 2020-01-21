@@ -1,0 +1,159 @@
+/* Base */
+/* *{
+    border: 1px solid #ff0000;
+    /* background-color: #181a1c;
+} */
+ 
+nav {
+    background-color: #000000;
+    opacity: 0.8;
+}
+
+.navbar-collapse.in {
+    display: block !important;
+}
+
+#brand {
+    color: #ffff;
+}
+
+#nav-content a {
+    color: #ffff;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-item > button {
+
+    margin-left: 1em;
+}
+
+.navbar-toggler {
+    background-color: #000000;
+    opacity: 0.70;
+    font-size: 0.5em;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 1.2em;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.25em;
+    padding: 0.2em;
+    margin-bottom: 2em;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    text-indent:2em;
+}
+
+
+/* layout */
+#l-header {
+    background: url(img/background.jpg);
+    min-height: 110vh;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
+}
+
+#l-footer {
+    color: #eceff3;
+    background-color: #0b0b0b;
+}
+
+/* Module */
+
+.hr-bg-blck {
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color:#feed01;
+    width: 300px;
+    margin-bottom: 3em;
+}
+
+.hr-bg-ylw {
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color:#eceff3;
+    width: 300px;
+    margin-bottom: 3em;
+}
+
+#info-show {
+    color:#ffff; 
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size : 1.7em;
+    margin-top:1em;
+     
+}
+
+.card-title {
+   text-transform: uppercase;
+   font-weight: bold;
+}
+/* Formulaire */
+.wpcf7-text {
+    width : 100%
+}
+
+.wpcf7 textarea 
+{
+    width: 100%;
+	padding: 8px;
+    border-radius: 3px;
+}
+
+::placeholder {
+    color:#0b0b0b;
+    font-size: 1em;
+  }
+
+/* Thèmes */
+.theme-bg-black {
+    color: #eceff3;
+    background-color: #181a1c;
+    display: block;
+}
+
+.theme-bg-yellow {
+    color: #181a1c;
+    background-color: #feed01;
+    display: block;
+}
+
+.cta, .wpcf7-submit {
+
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #feed01;
+}
+
+.cta-dark {
+
+    background-color: #000000;
+    color : #ffff;
+}
+
+
+#actualites {
+    border-left : 0.3em dashed #000000;
+border-bottom: 1px solid #000;
+box-shadow: 0 3px 6px rgba(0,0,0,0.19),0 3px 6px rgba(0,0,0,0.23);
+}

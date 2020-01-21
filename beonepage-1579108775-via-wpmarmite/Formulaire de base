@@ -1,0 +1,42 @@
+<div class="formBox">
+    <div class="row">
+    <div class="inputBox>
+       
+        <div class="col-3 col-sm-3">
+    [text* prenom placeholder "Prénom (obligatoire)"] 
+        </div>
+    
+     <div class="col-3 col-sm-3">
+    [text nom placeholder "Nom"] 
+        </div>
+    </div>
+    
+    <div class="row">
+    
+        <div class="col-3 col-sm-3">
+    [email* email placeholder "Email (obligatoire)"] 
+        </div>
+    
+        <div class="col-3 col-sm-3">
+    [tel telephone placeholder "Téléphone"] 
+        </div>
+    </div>
+    
+    <div class="row">
+    
+        <div class="col-6 col-sm-6">
+    [text sujet placeholder "Sujet du message"]
+        </div>
+    </div>
+    </div>
+    <div class="row">
+    
+        <div class="col-6 col-sm-6">
+    [textarea message placeholder "Votre message"]
+        </div>
+    
+    </div>
+    <div class="btn btn-light">
+        [submit "Envoyer"]
+    </div>
+    </div>
