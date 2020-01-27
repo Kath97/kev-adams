@@ -1,0 +1,300 @@
+/* Bases */
+
+/* Navbar */
+nav {
+
+    background-color: #000000;
+    border-bottom: 1px solid #0b0b0b;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.19),0 3px 6px rgba(0,0,0,0.23);
+}
+
+.navbar-collapse.in {
+
+    display: block !important;
+
+}
+
+#brand {
+
+    color: #eceff3;
+
+}
+
+#nav-content a {
+
+    color: #eceff3;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.90em;
+}
+
+.navbar-toggler {
+
+    background-color: #000000;
+    opacity: 0.70;
+    font-size: 0.5em;
+
+}
+
+/* Title */
+
+h2 {
+
+    text-transform: uppercase;
+    text-align: center;
+    font-family:'Knockout', Raleway;
+    font-size: 3em;
+    letter-spacing: 0.4em;
+    padding-top: 1.2em;
+    font-weight: bold;
+
+}
+
+h3 {
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.25em;
+    padding: 0.2em;
+    margin-bottom: 2em;
+
+}
+
+h4 {
+
+    text-align: center;
+    font-size: 1.3em;
+
+}
+
+p {
+
+    font-size: 1.25em;
+    line-height: 1.5em;
+    text-indent:2em;
+
+}
+
+
+/* layout */
+#l-footer {
+
+    color: #eceff3;
+    background-color: #0b0b0b;
+
+}
+
+/* Module */
+.hr-bg-blck {
+
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color:#feed01;
+    width: 100px;
+    margin-bottom: 3em;
+
+}
+
+.hr-bg-ylw {
+
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color:#181a1c;
+    width: 100px;
+    margin-bottom: 3em;
+
+   
+}
+
+/* Header */
+.img-fluid  {
+    
+    background-color: #feed01;
+    margin-top: 2em;
+    
+    }
+
+/* Actualités */
+.card {
+
+    background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+}
+
+.card:hover {
+
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+
+.card-title {
+
+   text-transform: uppercase;
+   font-weight: bold;
+}
+ 
+ .card-text {
+ 
+     text-align: left;
+ 
+ }
+ 
+.wp-post-image {
+ 
+     float: left;
+     border-radius: 0.5em;
+     margin : 1em;
+ }
+
+ #mentions-legales {
+     margin-top: 3em;
+ }
+
+/* Formulaire */
+.wpcf7-text {
+
+    width : 100%
+
+}
+
+.wpcf7 textarea {
+
+    width: 100%;
+	padding: 8px;
+    border-radius: 3px;
+
+}
+
+::placeholder {
+
+    color:#0b0b0b;
+    font-size: 1em;
+
+  }
+
+/* Thèmes */
+.theme-bg-black {
+
+    color: #eceff3;
+    background-color: #181a1c;
+    display: block;
+
+}
+
+.theme-bg-yellow {
+
+    color: #181a1c;
+    background-color: #feed01;
+    display: block;
+    border-left : 0.1em dashed #0000;
+    border-bottom: 1px solid #0000;
+
+}
+
+/* Boutons */
+.cta, .wpcf7-submit {
+
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #feed01;
+    
+}
+
+.cta-dark {
+
+    background-color: #000000;
+    color : #eceff3;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  
+}
+
+.cta-dark:hover {
+
+    background-color: #eceff3;
+    color : #000000;
+
+}
+
+.cta-ylw {
+
+    background-color: #feed01;
+    color : #000000!important; 
+
+}
+
+.cta-ylw:hover {
+
+    background-color: #eceff3;
+    color : #000000;    
+}
+
+/* Tickets */
+.fa-ticket {
+
+    font-size: 7em;
+}
+
+.price {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Knockout';
+    src: url('fonts/Knockout-HTF47-Bantamweight.woff2') format('woff2'),
+        url('fonts/Knockout-HTF47-Bantamweight.woff') format('woff'),
+        url('fonts/Knockout\ HTF47Bantamweight\ Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Media queries */
+@media(min-width:768px){
+    .img-fluid  {
+    
+    background-color: #feed01;
+    margin-top: 3em;
+    
+    }
+}
+
+@media(max-width:575.98px){
+    .img-fluid  {
+    
+    background-color: #feed01;
+    margin-top: 4em;
+    
+    }
+
+    h2 {
+
+        text-transform: uppercase;
+        text-align: center;
+        font-family:'Knockout', Raleway;
+        font-size: 2em;
+        letter-spacing: 0.4em;
+        padding-top: 0.7em;
+        font-weight: bold;
+    
+    }
+    .wp-post-image {
+ 
+        float: none;
+        border-radius: 0.5em;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+#nav-content .cta-ylw a {
+
+    color : #000;
+
+}

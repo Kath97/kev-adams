@@ -1,0 +1,21 @@
+<li class="nav-item">
+                        <a class="nav-link" id="" href="<?php echo get_option('home'); ?>/" >Accueil</a> 
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" id="" href="<?php echo esc_url( home_url( '#a-propos' ) ); ?>">À Propos</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" id="" href="<?php echo esc_url( home_url( '#actualites' ) ); ?>">Actualités</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" id="" href="<?php echo esc_url( home_url( '#videos' ) ); ?>">Vidéos</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" id="" href="<?php echo esc_url( home_url( '#tickets' ) ); ?>">Tickets</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" id="" href="<?php echo esc_url( home_url( '#contact' ) ); ?>">Contact</a>
+                        </li>
+                        <li class="nav-item text-center justify-content-end">
+                            <a class="btn cta cta-ylw mx-3" href="https://www.titi.com"  target="_blank">Je réserve ma place</a>
+                        </li>
